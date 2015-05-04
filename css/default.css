@@ -9,7 +9,6 @@ body,html {
 	padding: 0;
 	height: 100%;
 	width: 100%;
-
 }
 
 @font-face {
@@ -24,14 +23,23 @@ body,html {
 	background-color: #393839;
 	z-index: 400;
 	position: fixed;
-
 }
 
 #logo {
 	z-index: 100;
 	position: absolute;
 	top: 25px;
-	left: 41.5%;
+	left: 41%;
+}
+
+/*interior page navigation bar*/
+#homeinsideheader {
+	width: 100%;
+	height: 100px;
+	background-color: #393839;
+	z-index: 2000;
+	position: fixed;
+	display: none;
 }
 
 /*interior page navigation bar*/
@@ -39,17 +47,17 @@ body,html {
 	width: 100%;
 	height: 100px;
 	background-color: #393839;
-	z-index: 99;
+	z-index: 2000;
 	position: fixed;
 
 }
 
 #subheader {
-	width: 488px;
-	height: 200px;
+	width: 575px;
+	height: 100px;
 	position: absolute;
 	left: 50%;
-	margin-left: -244px;
+	margin-left: -280px;
 }
 
 #verticallogo {
@@ -94,63 +102,273 @@ a {
 
 /*index icon styling*/
 #filtericons {
-	width: 700px;
+	width: 1064px;
 	height: 200px;
 	top: 170px;
 	position: fixed;
 	left: 50%;
-	margin-left: -350px;
+	margin-left: -532px;
 }
 
+/*homepage icon filter images*/
 #regionicon {
 	background:url(../images/assets/region.png);
-	height: 34px;
-	width: -2px;
-	margin-right: 60px;
+	width: 266px;
+	height: 101px;
 	display: block;
-
 }
 
 #coloricon {
 	background:url(../images/assets/color.png);
-	height: 34px;
-	width: 74px;
+	width: 266px;
+	height: 101px;
 	display: block;
-	margin-right: 60px;
+
 }
 
 #styleicon {
 	background:url(../images/assets/style.png);
-	height: 34px;
-	width: 70px;
+	width: 266px;
+	height: 101px;
 	display: block;
-	margin-right: 60px;
+
 }
 
 #moodicon {
 	background:url(../images/assets/mood.png);
-	height: 39px;
-	width: 39px;
+	width: 266px;
+	height: 101px;
 	display: block;
 }
 
-.filter {
+.homepagefilter {
 	float: left;
-	padding: 40px;
-	padding-right: 40px;
-	vertical-align: bottom;
 }
 
 .filter:hover {
 	opacity: .4;
 }
 
+/*region icon images*/
+.naimage {
+	background:url(../images/assets/northamerica.png); 
+	width: 106px;
+	height: 126px;
+	border: none;
+	margin-right: 40px;
+}
+
+.saimage {
+	background:url(../images/assets/southamerica.png); 
+	width: 105px;
+	height: 126px;
+	border: none;
+	margin-right: 40px;
+}
+
+.euimage {
+	background:url(../images/assets/europe.png); 
+	width: 164px;
+	height: 126px;
+	border: none;
+	margin-right: 40px;
+}
+
+.afimage {
+	background:url(../images/assets/africa.png); 
+	width: 94px;
+	height: 126px;
+	border: none;
+	margin-right: 40px;
+}
+
+.asiaimage {
+	background:url(../images/assets/asia.png); 
+	width: 138px;
+	height: 126px;
+	border: none;
+	margin-right: 40px;
+}
+
+.ausimage {
+	background:url(../images/assets/australia.png); 
+	width: 101px;
+	height: 126px;
+	border: none;
+
+}
+/*end region filter images*/
+
+/*color filter images*/
+.whiteimage {
+	background:url(../images/assets/white.png); 
+	width: 59px;
+	height: 88px;
+	border: none;
+	margin-right: 20px;
+}
+
+.redimage {
+	background:url(../images/assets/red.png); 
+	width: 59px;
+	height: 88px;
+	border: none;
+	margin-right: 20px;
+}
+
+.orangeimage {
+	background:url(../images/assets/orange.png); 
+	width: 59px;
+	height: 88px;
+	border: none;
+	margin-right: 20px;
+}
+
+.yellowimage {
+	background:url(../images/assets/yellow.png); 
+	width: 59px;
+	height: 88px;
+	border: none;
+	margin-right: 20px;
+}
+
+.greenimage {
+	background:url(../images/assets/green.png); 
+	width: 59px;
+	height: 88px;
+	border: none;
+	margin-right: 20px;
+}
+
+.blueimage {
+	background:url(../images/assets/blue.png); 
+	width: 59px;
+	height: 88px;
+	border: none;
+	margin-right: 20px;
+}
+
+.purpleimage {
+	background:url(../images/assets/purple.png); 
+	width: 59px;
+	height: 88px;
+	border: none;
+	margin-right: 20px;
+}
+
+.pinkimage {
+	background:url(../images/assets/pink.png); 
+	width: 59px;
+	height: 88px;
+	border: none;
+	margin-right: 20px;
+}
+
+.woodimage {
+	background:url(../images/assets/wood.png); 
+	width: 59px;
+	height: 88px;
+	border: none;
+	margin-right: 20px;
+}
+
+.blackimage {
+	background:url(../images/assets/black.png); 
+	width: 59px;
+	height: 88px;
+	border: none;
+	margin-right: 20px;
+}
+
+.multiimage {
+	background:url(../images/assets/multi.png); 
+	width: 59px;
+	height: 88px;
+	border: none;
+}
+/*end color filter images*/
+
+
+/*start style filter*/
+.houseimage {
+	background:url(../images/assets/house.png); 
+	width: 144px;
+	height: 141px;
+	border: none;
+	margin-right: 40px;
+}
+
+.churchimage {
+	background:url(../images/assets/church.png); 
+	width: 144px;
+	height: 141px;
+	border: none;
+	margin-right: 40px;
+}
+
+.buildingimage {
+	background:url(../images/assets/building.png); 
+	width: 144px;
+	height: 141px;
+	border: none;
+	margin-right: 40px;
+}
+
+.archimage {
+	background:url(../images/assets/arch.png); 
+	width: 144px;
+	height: 141px;
+	border: none;
+}
+/*end style filter images*/
+
+/*start personality filter*/
+.whimsicalimage {
+	background:url(../images/assets/whimsical.png); 
+	width: 120px;
+	height: 137px;
+	border: none;
+	margin-right: 20px;
+}
+
+.rusticimage {
+	background:url(../images/assets/rustic.png); 
+	width: 120px;
+	height: 137px;
+	border: none;
+	margin-right: 20px;
+}
+
+.romanticimage {
+	background:url(../images/assets/romantic.png); 
+	width: 120px;
+	height: 137px;
+	border: none;
+	margin-right: 20px;
+}
+
+.dangerousimage {
+	background:url(../images/assets/dangerous.png); 
+	width: 120px;
+	height: 137px;
+	border: none;
+	margin-right: 20px;
+}
+
+.urbanimage {
+	background:url(../images/assets/urban.png); 
+	width: 120px;
+	height: 137px;
+	border: none;
+}
+/*end style filter images*/
+
 
 /*region icon styling*/
 #regionicons {
 	width: 1000px;
 	height: 200px;
-	top: 175px;
+	top: 145px;
 	position: fixed;
 	left: 50%;
 	margin-left: -450px;
@@ -175,7 +393,7 @@ a {
 #coloricons {
 	width: 850px;
 	height: 2-0px;
-	top: 190px;
+	top: 170px;
 	position: fixed;
 	left: 50%;
 	margin-left: -425px;
@@ -197,13 +415,12 @@ a {
 
 /*style icon styling*/
 #styleicons {
-	width: 750px;
+	width: 715px;
 	height: 100px;
-	top: 190px;
+	top: 138px;
 	position: fixed;
 	left: 50%;
-	margin-left: -375px;
-
+	margin-left: -357px;
 }
 
 .stylefilter {
@@ -220,14 +437,23 @@ a {
 	opacity: .4;
 }
 
+/*personality icon styling*/
+#moodicons {
+	width: 700px;
+	height: 100px;
+	top: 143px;
+	position: fixed;
+	left: 50%;
+	margin-left: -350px;
 
+}
 
 /*white line dividing each page in half*/
 #line {
 	height: 10px;
 	background-color: white;
 	width: 100%;
-	top: 370px;
+	top: 330px;
 	position: absolute;
 	z-index: 31;
 }
@@ -235,17 +461,18 @@ a {
 
 /*to top button*/
 #toTop {
-    padding: 5px 5px;
-    opacity: .7;
-    background:url(../images/assets/toTop.png);
-    width: 41px;
-    height: 41px;
+   
+    background:url(../images/assets/backtotop.png);
+    width: 138px;
+    height: 35px;
     position: fixed;
-    bottom: 5px;
-    right: 5px;
+    bottom: 30px;
+    right: 0px;
     display: none;
-    z-index: 200;
+    box-shadow: 3px 3px 3px black;
+    z-index: 1000;
 }
+
 
 
 /*bottom half with door images*/
@@ -253,9 +480,9 @@ a {
 	height: 100%;
 	width: 100%;
 	position: relative;
-	top: 370px;
+	top: 330px;
 	z-index: 30;
-	background-color: #414142;
+	background-color: white;
 }
 
 .box { /* frames your image, hiding overflowing parts */
@@ -265,12 +492,15 @@ a {
   float: left;
   margin: 0;
   padding:0;
+  display: none;
 }
+
 .box:before { /* sets height equal to width for square */
   content:"";
   padding-top:100%;
   display:inline-block;
 }
+
 .box img { /* centers image in box */
   width:110%;
   transition:all 2s; /* # sets speed of zoom */
@@ -279,9 +509,11 @@ a {
   top:50%;
   transform:translate(-50%,-50%);
 }
-.box:hover>img { /* expands image on hover -- change to decide how zoomed-in or out it becomes */
+
+.box:hover img { /* expands image on hover -- change to decide how zoomed-in or out it becomes */
   width:150%;
 }
+
 .info {
   width:100%;
   height:100%;
@@ -293,6 +525,7 @@ a {
   z-index:100;
   transition:all 1s; /* # sets speed of info reveal */
 }
+
 .info p{
   position:absolute;
   top:50%;
@@ -303,11 +536,20 @@ a {
   text-align: center;
   font-family: 'bebas';
 
-
 }
 .info:hover { /* reveals info on hover */
   opacity:0.6;
 }
+
+a {
+	color: black;
+
+}
+
+#container .mix{
+	display: none;
+}
+
 
 
 
