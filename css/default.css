@@ -378,6 +378,7 @@ a {
 	float: left;
 	padding-right: 40px;
 	vertical-align: bottom;
+	background: white;
 }
 
 .regionfilter:last-child {
