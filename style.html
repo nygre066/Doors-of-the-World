@@ -5,9 +5,20 @@
 		<link rel="stylesheet" href="css/default.css" />
 
 		<script type="text/javascript" src="js/jquery.min.js"></script>
+		<script type="text/javascript" src="js/jquery.mixitup.js"> </script>
 		<script type="text/javascript" src="js/script.js"></script>
+
+<!-- Add fancyBox -->
+<link rel="stylesheet" href="css/jquery.fancybox.css" type="text/css" media="screen" />
+<script type="text/javascript" src="js/jquery.fancybox.pack.js"></script>
+
+<!-- Optionally add helpers - button, thumbnail and/or media -->
+<link rel="stylesheet" href="helpers/jquery.fancybox-buttons.css" type="text/css" media="screen" />
+<script type="text/javascript" src="helpers/jquery.fancybox-buttons.js"></script>
+<script type="text/javascript" src="helpers/jquery.fancybox-media.js"></script>
+
 		
-		<title>Doors of the World by Style</title>
+		<title>Doors of the World by Type</title>
 	</head>
 
 	<body>
@@ -15,42 +26,1400 @@
 
 			<div id="insideheader"> <!-- top header navigation bar -->
 				<div id="subheader"> <!-- makes the logo and buttons move together -->
-					<a href="region.html" class="headertext">REGION</a>
+					<a href="region.html" class="headertext">CONTINENT</a>
 					<a href="color.html" class="headertext">COLOR</a>
 					<a href="index.html" id="verticallogo"></a>
-					<a href="style.html" id="selected" class="headertext">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;STYLE</a>
-					<a href="mood.html" class="headertext">MOOD</a>
+					<a href="style.html" id="selected" class="headertext">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;TYPE</a>
+					<a href="mood.html" class="headertext">PERSONALITY</a>
 				</div>
 			</div>
 
 			<div id="styleicons"> <!--style sort buttons-->
-				<img src="images/assets/roman.png" class="stylefilter">
-				<img src="images/assets/classic.png" class="stylefilter">
-				<img src="images/assets/islamic.png" class="stylefilter">
-				<img src="images/assets/western.png" class="stylefilter">
-				<img src="images/assets/modern.png" class="stylefilter">
-				<img src="images/assets/gothic.png" class="stylefilter">
+				<!--house--><button class="stylefilter houseimage filter" data-filter=".category-18"></button>
+				<!--church--><button class="stylefilter churchimage filter" data-filter=".category-19"></button>
+				<!--building--><button class="stylefilter buildingimage filter" data-filter=".category-20"></button>
+				<!--archway--><button class="stylefilter archimage filter" data-filter=".category-21"></button>
 			</div>
 
-			<!-- white line seperating top from the bottom half -->
-			<div id="line"> </div>
+			<!--white line seperating top from bottom-->
+			<div id="line"> </div> 
 
-			<div id="bottom">
-				<img src="images/doors/1.jpg" class="door">
-				<img src="images/doors/2.jpg" class="door">
-				<img src="images/doors/3.jpg" class="door">
-				<img src="images/doors/4.jpg" class="door">
-				<img src="images/doors/5.jpg" class="door">
-				<img src="images/doors/6.jpg" class="door">
-				<img src="images/doors/7.jpg" class="door">
-				<img src="images/doors/8.jpg" class="door">
+			<div id"toTop"></div>
+
+			<div id="bottom"> <!-- bottom grid of doors-->
+				
+		
+		<div id="mix" class="container"> 
+
+			<a class="fancybox1" href="images/doors/Ghanzi. Botswana_grass.jpg">
+				<div class="box mix category-18">
+				<div class="info">
+			    	<p>Ghanzi, <br> Botswana</p>
+			 	</div>
+					 <img src="images/doors/Ghanzi. Botswana_grass.jpg">
+			</div></a>
 
 
+			<a class="fancybox1" href="images/doors/Bali, Indonesia_multi.jpg">
+				<div class="box mix category-19">
+				<div class="info">
+			    	<p>Bali, <br> Indonisia</p>
+			 	</div>
+					 <img src="images/doors/Bali, Indonesia_multi.jpg">
+			</div>	</a>
+
+
+			<a class="fancybox1" href="images/doors/Cockatoo Island, Sydney, Australia_Multi.jpg">
+				<div class="box mix category-20">
+				<div class="info">
+			    	<p>Cockatoo Island, <br> Australia</p>
+			 	</div>
+					 <img src="images/doors/Cockatoo Island, Sydney, Australia_Multi.jpg">
+			</div></a>
+
+
+			<a class="fancybox1" href="images/doors/Cuba_green.jpg">
+			<div class="box mix category-18">
+				<div class="info">
+			    	<p>Havana, <br> Cuba</p>
+			 	</div>
+					 <img src="images/doors/Cuba_green.jpg">
+			</div></a>
+
+			<a class="fancybox1" href="images/doors/Haiti_blueYellow.jpg">
+			<div class="box mix category-18">
+				<div class="info">
+			    	<p>Port-au-Prince, <br> Haiti</p>
+			 	</div>
+					 <img src="images/doors/Haiti_blueYellow.jpg">
+			</div></a>
+
+
+			<a class="fancybox1" href="images/doors/Hyderabad, India_white.jpg">
+			<div class="box mix category-20">
+				<div class="info">
+			    	<p>Hyderabad, <br> India</p>
+			 	</div>
+					 <img src="images/doors/Hyderabad, India_white.jpg">
 			</div>
+			</a>
 			
+			<a class="fancybox1" href="images/doors/Monflanquin, Lot-et-Garonne, France_yellow.jpg">
+			<div class="box mix category-20">
+				<div class="info">
+			    	<p>Lot-et-Garonne, <br> France</p>
+			 	</div>
+					 <img src="images/doors/Monflanquin, Lot-et-Garonne, France_yellow.jpg">
+			</div>
+			</a>
+			
+			<a class="fancybox1" href="images/doors/Cuba_green.jpg">
+			<div class="box mix category-20">
+				<div class="info">
+			    	<p>Safi, <br> Morocco</p>
+			 	</div>
+					 <img src="images/doors/Morocco_yellow.jpg">
+			</div>
+			</a>
+			
+			<a class="fancybox1" href="images/doors/San Juan, Puerto Rico_yellow.jpg">
+			<div class="box mix category-18">
+				<div class="info">
+			    	<p>San Juan, <br> Puerto Rico</p>
+			 	</div>
+					 <img src="images/doors/San Juan, Puerto Rico_yellow.jpg">
+			</div>	
+			</a>
+			
+			<a class="fancybox1" href="images/doors/Seaside, Florida_multi.jpg">
+			<div class="box mix category-18">
+				<div class="info">
+			    	<p>Seaside, <br> Florida</p>
+			 	</div>
+					 <img src="images/doors/Seaside, Florida_multi.jpg">
+			</div>	
+			</a>
+			
+			<a class="fancybox1" href="images/doors/Siberia, Krasnoyarsk_Yellow.jpg">
+			<div class="box mix category-20">
+				<div class="info">
+			    	<p>Kransnoyarsk, <br> Siberia</p>
+			 	</div>
+					 <img src="images/doors/Siberia, Krasnoyarsk_Yellow.jpg">
+			</div>	
+			</a>
+			
+			<a class="fancybox1" href="images/doors/Sintra, Portugal_yellow.jpg">
+			<div class="box mix category-21">
+				<div class="info">
+			    	<p>Sintra, <br> Portugal</p>
+			 	</div>
+					 <img src="images/doors/Sintra, Portugal_yellow.jpg">
+			</div>
+			</a>
+			
+			<a class="fancybox1" href="images/doors/Tlaxcala, Mexico_yellow.jpg">	
+			<div class="box mix category-20">
+				<div class="info">
+			    	<p>Tlaxcala, <br> Mexico</p>
+			 	</div>
+					 <img src="images/doors/Tlaxcala, Mexico_yellow.jpg">
+			</div>	
+			</a>
+			
+			<a class="fancybox1" href="images/doors/Tunisia_Yellow.jpg">
+			<div class="box mix category-19">
+				<div class="info">
+			    	<p>Tunis, <br> Tunisia</p>
+			 	</div>
+					 <img src="images/doors/Tunisia_Yellow.jpg">
+			</div>	
+			</a>
+			
+			<a class="fancybox1" href="images/doors/Venice, Italy_blue.jpg">
+			<div class="box mix category-20">
+				<div class="info">
+			    	<p>Venice, <br> Italy</p>
+			 	</div>
+					 <img src="images/doors/Venice, Italy_blue.jpg">
+			</div>
+			</a>
+			
+			<a class="fancybox1" href="images/doors/ Lacock, England_blue.jpg">	
+			<div class="box mix category-18">
+				<div class="info">
+			    	<p>Lacock, <br> England</p>
+			 	</div>
+					 <img src="images/doors/ Lacock, England_blue.jpg">
+			</div>	
+			</a>
+			
+			<a class="fancybox1" href="images/doors/Alaçatı, İzmir, Turkey_mult.jpg">
+			<div class="box mix category-20">
+				<div class="info">
+			    	<p>I'zmir, <br> Turkey</p>
+			 	</div>
+					 <img src="images/doors/Alaçatı, İzmir, Turkey_mult.jpg">
+			</div>	
+			</a>
+			
+			<a class="fancybox1" href="images/doors/Anchorage, Alaska_Multi.jpg">
+			<div class="box mix category-20">
+				<div class="info">
+			    	<p>Anchorage, <br> Alaska</p>
+			 	</div>
+					 <img src="images/doors/Anchorage, Alaska_Multi.jpg">
+			</div>	
+			</a>
+			
+			<a class="fancybox1" href="images/doors/Asmara, Eritrea_white.jpg">
+			<div class="box mix category-19">
+				<div class="info">
+			    	<p>Asmara, <br> Eritrea</p>
+			 	</div>
+					 <img src="images/doors/Asmara, Eritrea_white.jpg">
+			</div>
+			</a>
+			
+			<a class="fancybox1" href="images/doors/Bangkok, Thailand_Red.jpg">	
+			<div class="box mix category-19">
+				<div class="info">
+			    	<p>Bangkok, <br> Thailand</p>
+			 	</div>
+					 <img src="images/doors/Bangkok, Thailand_Red.jpg">
+			</div>
+			</a>
+			
+			<a class="fancybox1" href="images/doors/Barcelona, Spain_multi.jpg">		
+			<div class="box mix category-20">
+				<div class="info">
+			    	<p>Barcelona, <br> Spain</p>
+			 	</div>
+					 <img src="images/doors/Barcelona, Spain_multi.jpg">
+			</div>
+			</a>
+			
+			<a class="fancybox1" href="images/doors/Beijing_red.jpg">		
+			<div class="box mix category-20">
+				<div class="info">
+			    	<p>Beijing, <br> China</p>
+			 	</div>
+					 <img src="images/doors/Beijing_red.jpg">
+			</div>
+			</a>
+			
+			<a class="fancybox1" href="images/doors/Beijing_rede.jpg">		
+			<div class="box mix category-20">
+				<div class="info">
+			    	<p>Beijing, <br> China</p>
+			 	</div>
+					 <img src="images/doors/Beijing_rede.jpg">
+			</div>
+			</a>
+			
+			<a class="fancybox1" href="images/doors/Chandni Chownk_red.jpg">		
+			<div class="box mix category-20">
+				<div class="info">
+			    	<p>Chandni, <br> Chownk</p>
+			 	</div>
+					 <img src="images/doors/Chandni Chownk_red.jpg">
+			</div>
+			</a>
+			
+			<a class="fancybox1" href="images/doors/Chimeras, Kiev_wood.jpg">		
+			<div class="box mix category-18">
+				<div class="info">
+			    	<p>Kiev, <br> Ukraine</p>
+			 	</div>
+					 <img src="images/doors/Chimeras, Kiev_wood.jpg">
+			</div>	
+			</a>
+			
+			<a class="fancybox1" href="images/doors/Cinque Terre, La Spezia, Italy_orange.jpg">	
+			<div class="box mix category-18">
+				<div class="info">
+			    	<p>Cinque Terre, <br> Italy</p>
+			 	</div>
+					 <img src="images/doors/Cinque Terre, La Spezia, Italy_orange.jpg">
+			</div>	
+			</a>
+			
+			<a class="fancybox1" href="images/doors/Coonabarabran_red.jpg">	
+			<div class="box mix category-20">
+				<div class="info">
+			    	<p>Coonabarabran, <br> Australia</p>
+			 	</div>
+					 <img src="images/doors/Coonabarabran_red.jpg">
+			</div>	
+			</a>
+			
+			<a class="fancybox1" href="images/doors/Cootham, West Sussex, England_red.jpg">	
+			<div class="box mix category-18">
+				<div class="info">
+			    	<p>West Sussex, <br> England</p>
+			 	</div>
+					 <img src="images/doors/Cootham, West Sussex, England_red.jpg">
+			</div>	
+			</a>
+			
+			<a class="fancybox1" href="images/doors/Dominican Republic_pink.jpg">	
+			<div class="box mix category-18">
+				<div class="info">
+			    	<p>Santo Domingo, <br> Dominincan Republic</p>
+			 	</div>
+					 <img src="images/doors/Dominican Republic_pink.jpg">
+			</div>	
+			</a>
+			
+			<a class="fancybox1" href="images/doors/Dresden, Saxony, Germany_wood.jpg">	
+			<div class="box mix category-18">
+				<div class="info">
+			    	<p>Dresden, <br> Germany</p>
+			 	</div>
+					 <img src="images/doors/Dresden, Saxony, Germany_wood.jpg">
+			</div>	
+			</a>
+			
+			<a class="fancybox1" href="images/doors/El Paso, Texas_black.jp">	
+			<div class="box mix category-18">
+				<div class="info">
+			    	<p>El Paso, <br> Texas</p>
+			 	</div>
+					 <img src="images/doors/El Paso, Texas_black.jpg">
+			</div>	
+			</a>
+			
+			<a class="fancybox1" href="images/doors/Eltham, Melbourne - Australia_Wood.jpg">	
+			<div class="box mix category-18">
+				<div class="info">
+			    	<p>Melborne, <br> Australia</p>
+			 	</div>
+					 <img src="images/doors/Eltham, Melbourne - Australia_Wood.jpg">
+			</div>	
+			</a>
+			
+			<a class="fancybox1" href="images/doors/France_green.jpg">	
+			<div class="box mix category-19">
+				<div class="info">
+			    	<p>Nice, <br> France</p>
+			 	</div>
+					 <img src="images/doors/France_green.jpg">
+			</div>	
+			</a>
+			
+			<a class="fancybox1" href="images/doors/Funchal, Madeira, Portugal_white.jpg">	
+			<div class="box mix category-20">
+				<div class="info">
+			    	<p>Madeira, <br> Portugal</p>
+			 	</div>
+					 <img src="images/doors/Funchal, Madeira, Portugal_white.jpg">
+			</div>	
+			</a>
+			
+			<a class="fancybox1" href="images/doors/Gozo, Malta_white.jpg">	
+			<div class="box mix category-18">
+				<div class="info">
+			    	<p>Gozo, <br> Malta</p>
+			 	</div>
+					 <img src="images/doors/Gozo, Malta_white.jpg">
+			</div>	
+			</a>
+			
+			<a class="fancybox1" href="images/doors/Grassington, North Yorkshire, England.jpg">	
+			<div class="box mix category-18">
+				<div class="info">
+			    	<p>North Yorkshire, <br> England</p>
+			 	</div>
+					 <img src="images/doors/Grassington, North Yorkshire, England.jpg">
+			</div>	
+			</a>
+			
+			<a class="fancybox1" href="images/doors/Greece. By Sydneymills_wood.jpg">		
+			<div class="box mix category-19">
+				<div class="info">
+			    	<p>Ahtens, <br> Greece</p>
+			 	</div>
+					 <img src="images/doors/Greece. By Sydneymills_wood.jpg">
+			</div>	
+			</a>
+			
+			<a class="fancybox1" href="images/doors/Hesse, Germany_red.jpg">	
+			<div class="box mix category-20">
+				<div class="info">
+			    	<p>Hesse, <br> Germany</p>
+			 	</div>
+					 <img src="images/doors/Hesse, Germany_red.jpg">
+			</div>	
+			</a>
+			
+			<a class="fancybox1" href="images/doors/Hutong, Beijing, China_red.jpg">	
+			<div class="box mix category-20">
+				<div class="info">
+			    	<p>Beijing, <br> China</p>
+			 	</div>
+					 <img src="images/doors/Hutong, Beijing, China_red.jpg">
+			</div>	
+			</a>
+			
+			<a class="fancybox1" href="images/doors/India Rajasthan_Door in Jaisalmer_Green.jpg">	
+			<div class="box mix category-18">
+				<div class="info">
+			    	<p>Jaisalmer, <br> India</p>
+			 	</div>
+					 <img src="images/doors/India Rajasthan_Door in Jaisalmer_Green.jpg">
+			</div>	
+			</a>
+			
+			<a class="fancybox1" href="images/doors/India_purple.jpg">	
+			<div class="box mix category-20">
+				<div class="info">
+			    	<p>New Dheli, <br> India</p>
+			 	</div>
+					 <img src="images/doors/India_purple.jpg">
+			</div>	
+			</a>
+			
+			<a class="fancybox1" href="images/doors/Irele, Bandiagara Escarpment, Dogon Country, Mali_Mud.jpg">	
+			<div class="box mix category-19">
+				<div class="info">
+			    	<p>Irele, <br> Mali</p>
+			 	</div>
+					 <img src="images/doors/Irele, Bandiagara Escarpment, Dogon Country, Mali_Mud.jpg">
+			</div>	
+			</a>
+			
+			<a class="fancybox1" href="images/doors/Istanbul_green.jpg">	
+			<div class="box mix category-18">
+				<div class="info">
+			    	<p>Ahtens, <br> Greece</p>
+			 	</div>
+					 <img src="images/doors/Istanbul_green.jpg">
+			</div>	
+			</a>
+			
+			<a class="fancybox1" href="images/doors/Jacmel, Haiti._red.jpg">	
+			<div class="box mix category-20">
+				<div class="info">
+			    	<p>Jacmel, <br> Haiti</p>
+			 	</div>
+					 <img src="images/doors/Jacmel, Haiti._red.jpg">
+			</div>	
+			</a>
+			
+			<a class="fancybox1" href="images/doors/Jaipur, India_Green.jpg">	
+			<div class="box mix category-18">
+				<div class="info">
+			    	<p>Jaipur, <br> India</p>
+			 	</div>
+					 <img src="images/doors/Jaipur, India_Green.jpg">
+			</div>	
+			</a>
+			
+			<a class="fancybox1" href="images/doors/Jedburgh, Scotland_brick.jpg">	
+			<div class="box mix category-21">
+				<div class="info">
+			    	<p>Jedburgh, <br> Scotland</p>
+			 	</div>
+					 <img src="images/doors/Jedburgh, Scotland_brick.jpg">
+			</div>	
+			</a>
+			
+			<a class="fancybox1" href="images/doors/Ketsch, Baden-Württemberg, Germany_wood.jpg">	
+			<div class="box mix category-19">
+				<div class="info">
+			    	<p>Ketsch, <br> Germany</p>
+			 	</div>
+					 <img src="images/doors/Ketsch, Baden-Württemberg, Germany_wood.jpg">
+			</div>	
+			</a>
+			
+			<a class="fancybox1" href="images/doors/Kinsale, County Cork, Ireland_blue.jpg">	
+			<div class="box mix category-18">
+				<div class="info">
+			    	<p>Kinsale, <br> Ireland</p>
+			 	</div>
+					 <img src="images/doors/Kinsale, County Cork, Ireland_blue.jpg">
+			</div>	
+			</a>
+			
+			<a class="fancybox1" href="images/doors/Kuopio, Northern Savonia, Finland_black.jpg">
+			<div class="box mix category-20">
+				<div class="info">
+			    	<p>Kuopio, <br> Finland</p>
+			 	</div>
+					 <img src="images/doors/Kuopio, Northern Savonia, Finland_black.jpg">
+			</div>	
+			</a>
+			
+			<a class="fancybox1" href="images/doors/La Candelaria, Bogotá, Colombia_yellow.jpg">	
+			<div class="box mix category-20">
+				<div class="info">
+			    	<p>Bogota, <br> Columbia</p>
+			 	</div>
+					 <img src="images/doors/La Candelaria, Bogotá, Colombia_yellow.jpg">
+			</div>
+			</a>
+			
+			<a class="fancybox1" href="images/doors/Lisbon, Portugal_red.jpg">		
+			<div class="box mix category-20">
+				<div class="info">
+			    	<p>Lisbon, <br> Portugal</p>
+			 	</div>
+					 <img src="images/doors/Lisbon, Portugal_red.jpg">
+			</div>
+			</a>
+			
+			<a class="fancybox1" href="images/doors/London_black.jpg">		
+			<div class="box mix category-21">
+				<div class="info">
+			    	<p>London, <br> England</p>
+			 	</div>
+					 <img src="images/doors/London_black.jpg">
+			</div>	
+			</a>
+			
+			<a class="fancybox1" href="images/doors/London, England_flag.jpg">	
+			<div class="box mix category-18">
+				<div class="info">
+			    	<p>London, <br> England</p>
+			 	</div>
+					 <img src="images/doors/London, England_flag.jpg">
+			</div>	
+			</a>
+			
+			<a class="fancybox1" href="images/doors/London, England_red.jpg">	
+			<div class="box mix category-18">
+				<div class="info">
+			    	<p>London, <br> England</p>
+			 	</div>
+					 <img src="images/doors/London, England_red.jpg">
+			</div>	
+			</a>
+			
+			<a class="fancybox1" href="images/doors/London, England_red1.jpg">	
+			<div class="box mix category-20">
+				<div class="info">
+			    	<p>Ahtens, <br> Greece</p>
+			 	</div>
+					 <img src="images/doors/London, England_red1.jpg">
+			</div>	
+			</a>
+			
+			<a class="fancybox1" href="images/doors/Lyon, Rhône-Alpes, France_black.jpg">	
+			<div class="box mix category-19">
+				<div class="info">
+			    	<p>Lyon, <br> France</p>
+			 	</div>
+					 <img src="images/doors/Lyon, Rhône-Alpes, France_black.jpg">
+			</div>	
+			</a>
+			
+			<a class="fancybox1" href="images/doors/Mali_wood.jpg">	
+			<div class="box mix category-18">
+				<div class="info">
+			    	<p>Bamoko, <br> Mali</p>
+			 	</div>
+					 <img src="images/doors/Mali_wood.jpg">
+			</div>	
+			</a>
+			
+			<a class="fancybox1" href="images/doors/Marrakech, Morocco_pink.jpg">	
+			<div class="box mix category-20">
+				<div class="info">
+			    	<p>Marrakech, <br> Morocco</p>
+			 	</div>
+					 <img src="images/doors/Marrakech, Morocco_pink.jpg">
+			</div>	
+			</a>
+			
+			<a class="fancybox1" href="images/doors/Marrakesh, Marrakech_red.jpg">	
+			<div class="box mix category-19">
+				<div class="info">
+			    	<p>Marrakesh, <br> Marrakech</p>
+			 	</div>
+					 <img src="images/doors/Marrakesh, Marrakech_red.jpg">
+			</div>	
+			</a>
+			
+			<a class="fancybox1" href="images/doors/McKinney, Texas_wood.jpg">	
+			<div class="box mix category-19">
+				<div class="info">
+			    	<p>McKinney, Texas<br> United States</p>
+			 	</div>
+					 <img src="images/doors/McKinney, Texas_wood.jpg">
+			</div>	
+			</a>
+			
+			<a class="fancybox1" href="images/doors/Medina_Africa_ Black.jpg">	
+			<div class="box mix category-19">
+				<div class="info">
+			    	<p>Fes, <br> Morocco</p>
+			 	</div>
+					 <img src="images/doors/Medina_Africa_ Black.jpg">
+			</div>	
+			</a>
+			
+			<a class="fancybox1" href="images/doors/Melborne, Australia, Purple.jpg">	
+			<div class="box mix category-18">
+				<div class="info">
+			    	<p>Melborne, <br> Australia</p>
+			 	</div>
+					 <img src="images/doors/Melborne, Australia, Purple.jpg">
+			</div>	
+			</a>
+			
+			<a class="fancybox1" href="images/doors/Melbourne, Australia_glass.jpg">	
+			<div class="box mix category-20">
+				<div class="info">
+			    	<p>Melborne, <br> Australia</p>
+			 	</div>
+					 <img src="images/doors/Melbourne, Australia_glass.jpg">
+			</div>	
+			</a>
+			
+			<a class="fancybox1" href="images/doors/Midland, Michigan_red.jpg">	
+			<div class="box mix category-19">
+				<div class="info">
+			    	<p>Midland, Michigan, <br> United States</p>
+			 	</div>
+					 <img src="images/doors/Midland, Michigan_red.jpg">
+			</div>	
+			</a>
+			
+			<a class="fancybox1" href="images/doors/Montmartre, Paris, France_red.jpg">	
+			<div class="box mix category-18">
+				<div class="info">
+			    	<p>Montmartre, <br> France</p>
+			 	</div>
+					 <img src="images/doors/Montmartre, Paris, France_red.jpg">
+			</div>	
+			</a>
+			
+			<a class="fancybox1" href="images/doors/morocco_blueyellow.jpg">	
+			<div class="box mix category-18">
+				<div class="info">
+			    	<p>Casablanca, <br> Morocco</p>
+			 	</div>
+					 <img src="images/doors/morocco_blueyellow.jpg">
+			</div>	
+			</a>
+			
+			<a class="fancybox1" href="images/doors/Nefta, Tunisia_Wood.jpg">	
+			<div class="box mix category-20">
+				<div class="info">
+			    	<p>Nefta, <br> Tunisia</p>
+			 	</div>
+					 <img src="images/doors/Nefta, Tunisia_Wood.jpg">
+			</div>	
+			</a>
+			
+			<a class="fancybox1" href="images/doors/Bangkok, Thailand_Red.jpg">	
+			<div class="box mix category-20">
+				<div class="info">
+			    	<p>New Orleans, Louisiana<br> United States</p>
+			 	</div>
+					 <img src="images/doors/New Orleans, Louisiana_wood.jpg">
+			</div>	
+			</a>
+			
+			<a class="fancybox1" href="images/doors/NewYork_iron.jpg">	
+			<div class="box mix category-18">
+				<div class="info">
+			    	<p>New York City, New York<br> United States</p>
+			 	</div>
+					 <img src="images/doors/NewYork_iron.jpg">
+			</div>	
+			</a>
+			
+			<a class="fancybox1" href="images/doors/NewYork_red.jpg">	
+			<div class="box mix category-20">
+				<div class="info">
+			    	<p>New York City, New York<br> United States</p>
+			 	</div>
+					 <img src="images/doors/NewYork_red.jpg">
+			</div>	
+			</a>
+			
+			<a class="fancybox1" href="images/doors/Newyork_red2.jpg">	
+			<div class="box mix category-20">
+				<div class="info">
+			    	<p>New York City, New York<br> United States</p>
+			 	</div>
+					 <img src="images/doors/Newyork_red2.jpg">
+			</div>	</a>
+			
+			<a class="fancybox1" href="images/doors/NewYork_white.jpg">	
+			<div class="box mix category-20">
+				<div class="info">
+			    	<p>New York City, New York<br> United States</p>
+			 	</div>
+					 <img src="images/doors/NewYork_white.jpg">
+			</div>	</a>
+			
+			<a class="fancybox1" href="images/doors/Northern Ghana_wood.jpg">	
+			<div class="box mix category-18">
+				<div class="info">
+			    	<p>Tamale,<br> Ghana</p>
+			 	</div>
+					 <img src="images/doors/Northern Ghana_wood.jpg">
+			</div>	</a>
+			
+			<a class="fancybox1" href="images/doors/Olinda, Pernambuco, Brazil_multi.jpg">	
+			<div class="box mix category-18">
+				<div class="info">
+			    	<p>Pernambuco,<br> Brazil</p>
+			 	</div>
+					 <img src="images/doors/Olinda, Pernambuco, Brazil_multi.jpg">
+			</div>	</a>
+			
+			<a class="fancybox1" href="images/doors/Philadelphia, Pennsylvania_wire.jpg">	
+			<div class="box mix category-18">
+				<div class="info">
+			    	<p>Philadelphia, Pennsylvania,<br> United States</p>
+			 	</div>
+					 <img src="images/doors/Philadelphia, Pennsylvania_wire.jpg">
+			</div>	</a>
+			
+			<a class="fancybox1" href="images/doors/Portimão, Faro, Portugal_blue.jpg">	
+			<div class="box mix category-20">
+				<div class="info">
+			    	<p>Faro,<br> Portugal </p>
+			 	</div>
+					 <img src="images/doors/Portimão, Faro, Portugal_blue.jpg">
+			</div>	</a>
+			
+			<a class="fancybox1" href="images/doors/Portugal_wood.jpg">	
+			<div class="box mix category-18">
+				<div class="info">
+			    	<p>Sintra,<br> Portugal</p>
+			 	</div>
+					 <img src="images/doors/Portugal_wood.jpg">
+			</div>	</a>
+			
+			<a class="fancybox1" href="images/doors/Portugal_wood2.jpg">	
+			<div class="box mix category-18">
+				<div class="info">
+			    	<p>Porto,<br> Portugal</p>
+			 	</div>
+					 <img src="images/doors/Portugal_wood2.jpg">
+			</div>	</a>
+			
+			<a class="fancybox1" href="images/doors/Prague, Czech Republic_greenred.jpg">	
+			<div class="box mix category-18">
+				<div class="info">
+			    	<p>Prague<br> Czech Republic</p>
+			 	</div>
+					 <img src="images/doors/Prague, Czech Republic_greenred.jpg">
+			</div>	</a>
+			
+			<a class="fancybox1" href="images/doors/Prague, Czech Republic_red.jpg">	
+			<div class="box mix category-19">
+				<div class="info">
+			    	<p>  Prague, <br>  Czech Republic</p>
+			 	</div>
+					 <img src="images/doors/Prague, Czech Republic_red.jpg">
+			</div>	</a>
+			
+			<a class="fancybox1" href="images/doors/Puerta Germagno, Piamonte, Italia_green.jpg">	
+			<div class="box mix category-18">
+				<div class="info">
+			    	<p>Puerta Germagno,<br> Italy</p>
+			 	</div>
+					 <img src="images/doors/Puerta Germagno, Piamonte, Italia_green.jpg">
+			</div>	</a>
+			
+			<a class="fancybox1" href="images/doors/Ranakhpur, India_Black.jpg">	
+			<div class="box mix category-19">
+				<div class="info">
+			    	<p>Ranakhpur,<br> India</p>
+			 	</div>
+					 <img src="images/doors/Ranakhpur, India_Black.jpg">
+			</div>	</a>
+			
+			<a class="fancybox1" href="images/doors/Rome, Italy_wood.jpg">	
+			<div class="box mix category-20">
+				<div class="info">
+			    	<p>Rome,<br> Italy</p>
+			 	</div>
+					 <img src="images/doors/Rome, Italy_wood.jpg">
+			</div>	</a>
+			
+			<a class="fancybox1" href="images/doors/Rookwood Cemetery - Sydney, Australia_black.jpg">
+			<div class="box mix category-20">
+				<div class="info">
+			    	<p>Sydney,<br> Australia</p>
+			 	</div>
+					 <img src="images/doors/Rookwood Cemetery - Sydney, Australia_black.jpg">
+			</div>	</a>
+			
+			<a class="fancybox1" href="images/doors/Roscoe, NY_white.jpg">	
+			<div class="box mix category-20">
+				<div class="info">
+			    	<p>Roscoe, New York,<br> United States</p>
+			 	</div>
+					 <img src="images/doors/Roscoe, NY_white.jpg">
+			</div>	</a>
+			
+			<a class="fancybox1" href="images/doors/Saint-Louis, Sénégal_blue.jpg">	
+			<div class="box mix category-18">
+				<div class="info">
+			    	<p>Saint Louis,<br>Senegal</p>
+			 	</div>
+					 <img src="images/doors/Saint-Louis, Sénégal_blue.jpg">
+			</div>	</a>
+			
+			<a class="fancybox1" href="images/doors/San Francisco, California_purple.jpg">	
+			<div class="box mix category-18">
+				<div class="info">
+			    	<p>San Fransisco, California,<br> United States</p>
+			 	</div>
+					 <img src="images/doors/San Francisco, California_purple.jpg">
+			</div>	</a>
+			
+			<a class="fancybox1" href="images/doors/Santiago_white.jpg">	
+			<div class="box mix category-20">
+				<div class="info">
+			    	<p>Santiago,<br> Chile</p>
+			 	</div>
+					 <img src="images/doors/Santiago_white.jpg">
+			</div>	</a>
+			
+			<a class="fancybox1" href="images/doors/Santiago, Chile_red.jpg">	
+			<div class="box mix category-18">
+				<div class="info">
+			    	<p>Santiago,<br> Chile</p>
+			 	</div>
+					 <img src="images/doors/Santiago, Chile_red.jpg">
+			</div>	</a>
+			
+			<a class="fancybox1" href="images/doors/Savannah, GA_black.jpg">	
+			<div class="box mix category-19">
+				<div class="info">
+			    	<p>Savannah, Georgia,<br> United States</p>
+			 	</div>
+					 <img src="images/doors/Savannah, GA_black.jpg">
+			</div>	</a>
+			
+			<a class="fancybox1" href="images/doors/Senegal. Touba_Wood.jpg">	
+			<div class="box mix category-19">
+				<div class="info">
+			    	<p>Touba,<br> Senegal</p>
+			 	</div>
+					 <img src="images/doors/Senegal. Touba_Wood.jpg">
+			</div>	</a>
+			
+			<a class="fancybox1" href="images/doors/Shanghai, China_red.jpg">	
+			<div class="box mix category-19">
+				<div class="info">
+			    	<p>Shanghai,<br> China</p>
+			 	</div>
+					 <img src="images/doors/Shanghai, China_red.jpg">
+			</div>	</a>
+			
+			<a class="fancybox1" href="images/doors/Sidi Bou Saïd, Tunisia_Green.jpg">	
+			<div class="box mix category-19">
+				<div class="info">
+			    	<p>Sidi Bou Sai'd,<br> Tunisia</p>
+			 	</div>
+					 <img src="images/doors/Sidi Bou Saïd, Tunisia_Green.jpg">
+			</div>	</a>
+			
+			<a class="fancybox1" href="images/doors/Siena, Italy_wood.jpg">	
+			<div class="box mix category-18">
+				<div class="info">
+			    	<p>Siena,<br> Italy</p>
+			 	</div>
+					 <img src="images/doors/Siena, Italy_wood.jpg">
+			</div>	</a>
+			
+			<a class="fancybox1" href="images/doors/Singapore_yellow.jpg">	
+			<div class="box mix category-19">
+				<div class="info">
+			    	<p>Clemente,<br> Singapore</p>
+			 	</div>
+					 <img src="images/doors/Singapore_yellow.jpg">
+			</div>	</a>
+			
+			<a class="fancybox1" href="images/doors/Stockholm, sweden_black.jpg">	
+			<div class="box mix category-19">
+				<div class="info">
+			    	<p>Stockholm,<br>Sweden</p>
+			 	</div>
+					 <img src="images/doors/Stockholm, sweden_black.jpg">
+			</div>	</a>
+			
+			<a class="fancybox1" href="images/doors/Stone Town, Zanzibar_white.jpg">	
+			<div class="box mix category-20">
+				<div class="info">
+			    	<p>Stone Town, Zanizbar,<br> Tanzania</p>
+			 	</div>
+					 <img src="images/doors/Stone Town, Zanzibar_white.jpg">
+			</div>	</a>
+			
+			<a class="fancybox1" href="images/doors/Tanzania_woo.jpg">	
+			<div class="box mix category-20">
+				<div class="info">
+			    	<p>Zanzibar,<br> Tanzania</p>
+			 	</div>
+					 <img src="images/doors/Tanzania_woo.jpg">
+			</div>	</a>
+			
+			<a class="fancybox1" href="images/doors/Tanzania_wood.jpg">	
+			<div class="box mix category-20">
+				<div class="info">
+			    	<p>Zanzibar,<br> Tanzania</p>
+			 	</div>
+					 <img src="images/doors/Tanzania_wood.jpg">
+			</div>	</a>
+			
+			<a class="fancybox1" href="images/doors/Thailand_Red.jpg">	
+			<div class="box mix category-19">
+				<div class="info">
+			    	<p>Phuket,<br> Thailand</p>
+			 	</div>
+					 <img src="images/doors/Thailand_Red.jpg">
+			</div>	</a>
+			
+			<a class="fancybox1" href="images/doors/Timbuctu, Mali_wood.jpg">	
+			<div class="box mix category-20">
+				<div class="info">
+			    	<p>Timbuctu,<br>Mali</p>
+			 	</div>
+					 <img src="images/doors/Timbuctu, Mali_wood.jpg">
+			</div></a>
+			
+			<a class="fancybox1" href="images/doors/Timbuktu. Mali_wood.jpg">	
+			<div class="box mix category-20">
+				<div class="info">
+			    	<p>Timbuctu,<br>Mali</p>
+			 	</div>
+					 <img src="images/doors/Timbuktu. Mali_wood.jpg">
+			</div>	</a>
+			
+			<a class="fancybox1" href="images/doors/Toronto, Canada_orange.jpg">	
+			<div class="box mix category-19">
+				<div class="info">
+			    	<p>Toronto,<br>Canada</p>
+			 	</div>
+					 <img src="images/doors/Toronto, Canada_orange.jpg">
+			</div>	</a>
+			
+			<a class="fancybox1" href="images/doors/Tuscany, Italy_wood.jpg">	
+			<div class="box mix category-20">
+				<div class="info">
+			    	<p>Tuscany,<br>Italy</p>
+			 	</div>
+					 <img src="images/doors/Tuscany, Italy_wood.jpg">
+			</div>	</a>
+			
+			<a class="fancybox1" href="images/doors/Udaipur, Rajasthan, India_red.jpg">	
+			<div class="box mix category-18">
+				<div class="info">
+			    	<p>Rajasthan,<br>India</p>
+			 	</div>
+					 <img src="images/doors/Udaipur, Rajasthan, India_red.jpg">
+			</div>	</a>
+			
+			<a class="fancybox1" href="images/doors/Vienna, Austria_blue.jpg">	
+			<div class="box mix category-20">
+				<div class="info">
+			    	<p>Vienna,<br>Austria</p>
+			 	</div>
+					 <img src="images/doors/Vienna, Austria_blue.jpg">
+			</div>	</a>
+			
+			<a class="fancybox1" href="images/doors/Vilnius, Lithuania_multi.jpg">	
+			<div class="box mix category-20">
+				<div class="info">
+			    	<p>Vilnius,<br>Lithuania</p>
+			 	</div>
+					 <img src="images/doors/Vilnius, Lithuania_multi.jpg">
+			</div>	</a>
+			
+			<a class="fancybox1" href="images/doors/Volterra, Tuscany, Italy_black.jpg">	
+			<div class="box mix category-19">
+				<div class="info">
+			    	<p>Tuscany,<br>Italy</p>
+			 	</div>
+					 <img src="images/doors/Volterra, Tuscany, Italy_black.jpg">
+			</div>	</a>
+			
+			<a class="fancybox1" href="images/doors/Warsaw, Poland_black.jpg">	
+			<div class="box mix category-18">
+				<div class="info">
+			    	<p>Warsaw,<br>Poland</p>
+			 	</div>
+					 <img src="images/doors/Warsaw, Poland_black.jpg">
+			</div>	</a>
+			
+			<a class="fancybox1" href="images/doors/Washington, North Carolina_red.jpg">	
+			<div class="box mix category-19">
+				<div class="info">
+			    	<p>North Carolina,<br>United States</p>
+			 	</div>
+					 <img src="images/doors/Washington, North Carolina_red.jpg">
+			</div>	</a>
+			
+			<a class="fancybox1" href="images/doors/Wismar, Mecklenburg-Vorpommern, Germany_white.jpg">	
+			<div class="box mix category-18">
+				<div class="info">
+			    	<p>Wismar,<br>Germany</p>
+			 	</div>
+					 <img src="images/doors/Wismar, Mecklenburg-Vorpommern, Germany_white.jpg">
+			</div>	</a>
+			
+			<a class="fancybox1" href="images/doors/Xidi, Anhui, China_wood.jpg">	
+			<div class="box mix category-19">
+				<div class="info">
+			    	<p>Xidi,<br>China</p>
+			 	</div>
+					 <img src="images/doors/Xidi, Anhui, China_wood.jpg">
+			</div>	</a>
+			
+			<a class="fancybox1" href="images/doors/Zanzibar_green.jpg">	
+			<div class="box mix category-20">
+				<div class="info">
+			    	<p>Zanzibar,<br>Tanzania</p>
+			 	</div>
+					 <img src="images/doors/Zanzibar_green.jpg">
+			</div>	</a>
+			
+			<a class="fancybox1" href="images/doors/Zanzibar_wood.jpg">
+			<div class="box mix category-19">
+				<div class="info">
+			    	<p>Zanzibar,<br>Tanzania</p>
+			 	</div>
+					 <img src="images/doors/Zanzibar_wood.jpg">
+			</div>	</a>
+			
+			<a class="fancybox1" href="images/doors/Zanzibar_wood2.jpg">	
+			<div class="box mix category-19">
+				<div class="info">
+			    	<p>Zanzibar,<br>Tanzania</p>
+			 	</div>
+					 <img src="images/doors/Zanzibar_wood2.jpg">
+			</div>	</a>
+			
+			<a class="fancybox1" href="images/doors/Zanzibar)wood.jpg">	
+			<div class="box mix category-20">
+				<div class="info">
+			    	<p>Zanzibar,<br>Tanzania</p>
+			 	</div>
+					 <img src="images/doors/Zanzibar)wood.jpg">
+			</div>	</a>
+			
+			<a class="fancybox1" href="images/doors/ Santorini, Greece.jpg">	
+			<div class="box mix category-18">
+				<div class="info">
+			    	<p>Santorini,<br>Greece</p>
+			 	</div>
+					 <img src="images/doors/ Santorini, Greece.jpg">
+			</div>	</a>
+			
+			<a class="fancybox1" href="images/doors/Argentina_green.jpg">	
+			<div class="box mix category-18">
+				<div class="info">
+			    	<p>Buenos Aires,<br>Argentina</p>
+			 	</div>
+					 <img src="images/doors/Argentina_green.jpg">
+			</div>	</a>
+			
+			<a class="fancybox1" href="images/doors/Barcelona, Spain_blue.jpg">	
+			<div class="box mix category-18">
+				<div class="info">
+			    	<p>Barcelona,<br>Spain</p>
+			 	</div>
+					 <img src="images/doors/Barcelona, Spain_blue.jpg">
+			</div>	</a>
+			
+			<a class="fancybox1" href="images/doors/Blue Door, Venice, Italy_Blue.jpg">	
+			<div class="box mix category-20">
+				<div class="info">
+			    	<p>Venice,<br>Italy</p>
+			 	</div>
+					 <img src="images/doors/Blue Door, Venice, Italy_Blue.jpg">
+			</div>	</a>
+			
+			<a class="fancybox1" href="images/doors/Burano, Italia_purple.jpg">	
+			<div class="box mix category-18">
+				<div class="info">
+			    	<p>Burano,<br>Italy</p>
+			 	</div>
+					 <img src="images/doors/Burano, Italia_purple.jpg">
+			</div>	</a>
+			
+			<a class="fancybox1" href="images/doors/Ceriana, Imperia, Italy_blue.jpg">	
+			<div class="box mix category-20">
+				<div class="info">
+			    	<p>Ceriana,<br>Italy</p>
+			 	</div>
+					 <img src="images/doors/Ceriana, Imperia, Italy_blue.jpg">
+			</div>	</a>
+			
+			<a class="fancybox1" href="images/doors/Chaouen. Chefchaouen, Morocco_Blue.jpg">	
+			<div class="box mix category-18">
+				<div class="info">
+			    	<p>Chaouen,<br>Morocco</p>
+			 	</div>
+					 <img src="images/doors/Chaouen. Chefchaouen, Morocco_Blue.jpg">
+			</div>	</a>
+			
+			<a class="fancybox1" href="images/doors/Chefchaouen, Morocco_blue.jpg">	
+			<div class="box mix category-18">
+				<div class="info">
+			    	<p>Chefchaouen,<br>Morocco</p>
+			 	</div>
+					 <img src="images/doors/Chefchaouen, Morocco_blue.jpg">
+			</div>	</a>
+			
+			<a class="fancybox1" href="images/doors/China_blue.jpg">	
+			<div class="box mix category-18">
+				<div class="info">
+			    	<p>Shenzhen,<br>China</p>
+			 	</div>
+					 <img src="images/doors/China_blue.jpg">
+			</div>	</a>
+			
+			<a class="fancybox1" href="images/doors/Consuegra, Toledo, Spain_Blue.jpg">	
+			<div class="box mix category-18">
+				<div class="info">
+			    	<p>Toledo,<br>Spain</p>
+			 	</div>
+					 <img src="images/doors/Consuegra, Toledo, Spain_Blue.jpg">
+			</div>	</a>
+			
+			<a class="fancybox1" href="images/doors/Copenhagen, Denmark.jpg">	
+			<div class="box mix category-18">
+				<div class="info">
+			    	<p>Copenhagen,<br>Denmark</p>
+			 	</div>
+					 <img src="images/doors/Copenhagen, Denmark.jpg">
+			</div>	</a>
+			
+			<a class="fancybox1" href="images/doors/Corsica, France_green.jpg">	
+			<div class="box mix category-18">
+				<div class="info">
+			    	<p>Corsica,<br>France</p>
+			 	</div>
+					 <img src="images/doors/Corsica, France_green.jpg">
+			</div>	</a>
+			
+			<a class="fancybox1" href="images/doors/Costa Nova, Portugal_white.jpg">	
+			<div class="box mix category-18">
+				<div class="info">
+			    	<p>Costa Nova,<br>Portugal</p>
+			 	</div>
+					 <img src="images/doors/Costa Nova, Portugal_white.jpg">
+			</div>	</a>
+			
+			<a class="fancybox1" href="images/doors/Dartmouth, Devon, England_blue.jpg">	
+			<div class="box mix category-18">
+				<div class="info">
+			    	<p>Dartmouth,<br>England</p>
+			 	</div>
+					 <img src="images/doors/Dartmouth, Devon, England_blue.jpg">
+			</div></a>
+			
+			<a class="fancybox1" href="images/doors/Ethiopia_multi.jpg">
+			<div class="box mix category-20">
+				<div class="info">
+			    	<p>Agaro,<br>Ethiopia</p>
+			 	</div>
+					 <img src="images/doors/Ethiopia_multi.jpg">
+			</div>	</a>
+			
+			<a class="fancybox1" href="images/doors/Israel_blue.jpg">	
+			<div class="box mix category-20">
+				<div class="info">
+			    	<p>Jeruselem,<br>Israel</p>
+			 	</div>
+					 <img src="images/doors/Israel_blue.jpg">
+			</div>	</a>
+			
+			<a class="fancybox1" href="images/doors/Jacmel, Haiti_Blue.jpg">	
+			<div class="box mix category-20">
+				<div class="info">
+			    	<p>Jacmel,<br>Haiti</p>
+			 	</div>
+					 <img src="images/doors/Jacmel, Haiti_Blue.jpg">
+			</div>	</a>
+			
+			<a class="fancybox1" href="images/doors/Jodhpur, Rajasthan, India_BlueGreen.jpg">
+			<div class="box mix category-20">
+				<div class="info">
+			    	<p>Rajasthan,<br>India</p>
+			 	</div>
+					 <img src="images/doors/Jodhpur, Rajasthan, India_BlueGreen.jpg">
+			</div></a>
+			
+			<a class="fancybox1" href="images/doors/Kashgar_blue.jpg">	
+			<div class="box mix category-20">
+				<div class="info">
+			    	<p>Kashgar,<br>China</p>
+			 	</div>
+					 <img src="images/doors/Kashgar_blue.jpg">
+			</div>	</a>
+			
+			<a class="fancybox1" href="images/doors/Kilkenny, Ireland.jpg">	
+			<div class="box mix category-20">
+				<div class="info">
+			    	<p>Kilkenny,<br>Ireland</p>
+			 	</div>
+					 <img src="images/doors/Kilkenny, Ireland.jpg">
+			</div>	</a>
+			
+			<a class="fancybox1" href="images/doors/La Habana, Cuba_white.jpg">	
+			<div class="box mix category-18">
+				<div class="info">
+			    	<p>La Habana,<br>Cuba</p>
+			 	</div>
+					 <img src="images/doors/La Habana, Cuba_white.jpg">
+			</div>	</a>
+			
+			<a class="fancybox1" href="images/doors/La Martyre, Brittany,France_blue.jpg">	
+			<div class="box mix category-20">
+				<div class="info">
+			    	<p>La Martyre,<br>France</p>
+			 	</div>
+					 <img src="images/doors/La Martyre, Brittany,France_blue.jpg">
+			</div></a>
+			
+			<a class="fancybox1" href="images/doors/Louvre door, Paris_blue.jpg">	
+			<div class="box mix category-18">
+				<div class="info">
+			    	<p>Paris,<br>France</p>
+			 	</div>
+					 <img src="images/doors/Louvre door, Paris_blue.jpg">
+			</div>	</a>
+			
+			<a class="fancybox1" href="images/doors/Marsaxlokk, Malta, Malta Island_green.jpg">	
+			<div class="box mix category-18">
+				<div class="info">
+			    	<p>Malta Island,<br>Malta</p>
+			 	</div>
+					 <img src="images/doors/Marsaxlokk, Malta, Malta Island_green.jpg">
+			</div>	</a>
+			
+			<a class="fancybox1" href="images/doors/Moscow, Russia_Blue.jpg">	
+			<div class="box mix category-19">
+				<div class="info">
+			    	<p>Moscow,<br>Russia</p>
+			 	</div>
+					 <img src="images/doors/Moscow, Russia_Blue.jpg">
+			</div></a>
+			
+			<a class="fancybox1" href="images/doors/Moscow, Russia_yellow.jpg">	
+			<div class="box mix category-19">
+				<div class="info">
+			    	<p>Moscow,<br>Russia</p>
+			 	</div>
+					 <img src="images/doors/Moscow, Russia_yellow.jpg">
+			</div>	</a>
+			
+			<a class="fancybox1" href="images/doors/Mykonos_blue.jpg">	
+			<div class="box mix category-18">
+				<div class="info">
+			    	<p>Mykonos,<br>Greece</p>
+			 	</div>
+					 <img src="images/doors/Mykonos_blue.jpg">
+			</div>	</a>
+			
+			<a class="fancybox1" href="images/doors/New York City, New York_multi.jpg">	
+			<div class="box mix category-20">
+				<div class="info">
+			    	<p>New York City, New York,<br>United States</p>
+			 	</div>
+					 <img src="images/doors/New York City, New York_multi.jpg">
+			</div>	</a>
+			
+			<a class="fancybox1" href="images/doors/Old Town, Keriya, Xinjiang Uyghur Autonomous Region, China_wood.jpg">	
+			<div class="box mix category-20">
+				<div class="info">
+			    	<p>Xinjiang,<br>China</p>
+			 	</div>
+					 <img src="images/doors/Old Town, Keriya, Xinjiang Uyghur Autonomous Region, China_wood.jpg">
+			</div></a>
+			
+			<a class="fancybox1" href="images/doors/Olhão, Algarve, Portugal_green.jpg">	
+			<div class="box mix category-20">
+				<div class="info">
+			    	<p>Algarve,<br>Portugal</p>
+			 	</div>
+					 <img src="images/doors/Olhão, Algarve, Portugal_green.jpg">
+			</div></a>
+			
+			<a class="fancybox1" href="images/doors/paris,france.jpg">	
+			<div class="box mix category-20">
+				<div class="info">
+			    	<p>Paris,<br>France</p>
+			 	</div>
+					 <img src="images/doors/paris,france.jpg">
+			</div></a>
+			
+			<a class="fancybox1" href="images/doors/Philadelphia, Pennsylvania_multi.jpg">	
+			<div class="box mix category-18">
+				<div class="info">
+			    	<p>Phildelphia, Pennsylvania,<br>United States</p>
+			 	</div>
+					 <img src="images/doors/Philadelphia, Pennsylvania_multi.jpg">
+			</div></a>
+			
+			<a class="fancybox1" href="images/doors/Plestin-les-Grèves, Côtes-d'Armor, France _blue.jpg">	
+			<div class="box mix category-18">
+				<div class="info">
+			    	<p>Cotes d'Armor,<br>France</p>
+			 	</div>
+					 <img src="images/doors/Plestin-les-Grèves, Côtes-d'Armor, France _blue.jpg">
+			</div></a>
+			
+			<a class="fancybox1" href="images/doors/Port Townsend, Washington_wood.jpg">	
+			<div class="box mix category-18">
+				<div class="info">
+			    	<p>Port Townsend,Washington<br>United States</p>
+			 	</div>
+					 <img src="images/doors/Port Townsend, Washington_wood.jpg">
+			</div>	</a>
+			
+			<a class="fancybox1" href="images/doors/Porta Da Artista, Madeira Li.jpg">	
+			<div class="box mix category-20">
+				<div class="info">
+			    	<p>Porta Da Artista,<br>Madeira</p>
+			 	</div>
+					 <img src="images/doors/Porta Da Artista, Madeira Li.jpg">
+			</div></a>
+			
+			<a class="fancybox1" href="images/doors/Porto, Portugal_purple.jpg">	
+			<div class="box mix category-18">
+				<div class="info">
+			    	<p>Porto,<br>Portugal</p>
+			 	</div>
+					 <img src="images/doors/Porto, Portugal_purple.jpg">
+			</div></a>
+			
+			<a class="fancybox1" href="images/doors/Russia_blue.jpg">	
+			<div class="box mix category-20">
+				<div class="info">
+			    	<p>Moscow,<br>Russia</p>
+			 	</div>
+					 <img src="images/doors/Russia_blue.jpg">
+			</div></a>
+			
+			<a class="fancybox1" href="images/doors/Sesimbra, Portugal.jpg">	
+			<div class="box mix category-20">
+				<div class="info">
+			    	<p>Sesimbra,<br>Portugal</p>
+			 	</div>
+					 <img src="images/doors/Sesimbra, Portugal.jpg">
+			</div></a>
+			
+			<a class="fancybox1" href="images/doors/Sidi Bou Said (Tunisia_Blue.jpg">	
+			<div class="box mix category-19">
+				<div class="info">
+			    	<p>Sidi Bou Said,<br>Tunisia</p>
+			 	</div>
+					 <img src="images/doors/Sidi Bou Said (Tunisia_Blue.jpg">
+			</div></a>
+			
+			<a class="fancybox1" href="images/doors/Stone Town, Zanzibar, Tanzania_blue.jpg">	
+			<div class="box mix category-20">
+				<div class="info">
+			    	<p>Stone Town,<br>Tanzania</p>
+			 	</div>
+					 <img src="images/doors/Stone Town, Zanzibar, Tanzania_blue.jpg">
+			</div></a>
+			
+			<a class="fancybox1" href="images/doors/Taos Pueblo, New Mexico_Blue.jpg">	
+			<div class="box mix category-18">
+				<div class="info">
+			    	<p>Taos Pueblo,<br>New Mexico,<br>United States</p>
+			 	</div>
+					 <img src="images/doors/Taos Pueblo, New Mexico_Blue.jpg">
+			</div></a>
+			
+			<a class="fancybox1" href="images/doors/Venice, Italy_wood.jpg">	
+			<div class="box mix category-20">
+				<div class="info">
+			    	<p>Venice,<br>Italy</p>
+			 	</div>
+					 <img src="images/doors/Venice, Italy_wood.jpg">
+			</div></a>
+			
+			<a class="fancybox1" href="images/doors/Venice, Italy_wood2.jpg">	
+			<div class="box mix category-20">
+				<div class="info">
+			    	<p>Venice,<br>Italy</p>
+			 	</div>
+					 <img src="images/doors/Venice, Italy_wood2.jpg">
+			</div></a>
+			
+			<a class="fancybox1" href="images/doors/Volterra, Tuscany, Italy_blue.jpg">	
+			<div class="box mix category-20">
+				<div class="info">
+			    	<p>Tuscany,<br>Italy</p>
+			 	</div>
+					 <img src="images/doors/Volterra, Tuscany, Italy_blue.jpg">
+			</div></a>
+			
+			<a class="fancybox1" href="images/doors/Yaroslavl, Russia_bluegreen.jpg">	
+			<div class="box mix category-20">
+				<div class="info">
+			    	<p>Yaroslavl,<br>Russia</p>
+			 	</div>
+					 <img src="images/doors/Yaroslavl, Russia_bluegreen.jpg">
+			</div></a>
+			
+			<a class="fancybox1" href="images/doors/Yemen_blue.jpg">	
+			<div class="box mix category-20">
+				<div class="info">
+			    	<p>Sana'a,<br>Mali</p>
+			 	</div>
+					 <img src="images/doors/Yemen_blue.jpg">
+			</div></a>
+		</div>
 
-			<!--To the top  button that appears when scrolling down-->
-			<a href="style.html"><div id='toTop'></div>
+
+			<div><!--To the top  button that appears when scrolling down-->
+			<a href="index.html"><div id='toTop'></div>
 
 		</div>
 	</body>
