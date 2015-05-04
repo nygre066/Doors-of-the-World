@@ -483,7 +483,6 @@ a {
 	position: relative;
 	top: 330px;
 	z-index: 30;
-	background-color: white;
 }
 
 .box { /* frames your image, hiding overflowing parts */
