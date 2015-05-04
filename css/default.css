@@ -15,6 +15,10 @@ body,html {
 	font-family: 'Oswald', sans-serif;
 }
 
+
+img { background-color: transparent; }
+
+
 /* homepage header style*/
 #header {
 	width: 100%;
@@ -52,11 +56,11 @@ body,html {
 }
 
 #subheader {
-	width: 583px;
+	width: 595px;
 	height: 100px;
 	position: absolute;
 	left: 50%;
-	margin-left: -283px;
+	margin-left: -298px;
 }
 
 #verticallogo {
@@ -85,7 +89,7 @@ a {
 	position: relative;
 	left: 0px;
 	top: 38px;
-	letter-spacing: 1pt;
+	letter-spacing: .5pt;
 	float: left;
 
 }
@@ -155,6 +159,7 @@ a {
 	height: 126px;
 	border: none;
 	margin-right: 40px;
+	background-color: transparent; 
 }
 
 .saimage {
@@ -163,6 +168,7 @@ a {
 	height: 126px;
 	border: none;
 	margin-right: 40px;
+	background-color: transparent; 
 }
 
 .euimage {
@@ -171,6 +177,7 @@ a {
 	height: 126px;
 	border: none;
 	margin-right: 40px;
+	background-color: transparent; 
 }
 
 .afimage {
@@ -179,6 +186,7 @@ a {
 	height: 126px;
 	border: none;
 	margin-right: 40px;
+	background-color: transparent; 
 }
 
 .asiaimage {
@@ -187,6 +195,7 @@ a {
 	height: 126px;
 	border: none;
 	margin-right: 40px;
+	background-color: transparent; 
 }
 
 .ausimage {
@@ -194,6 +203,7 @@ a {
 	width: 101px;
 	height: 126px;
 	border: none;
+	background-color: transparent; 
 
 }
 /*end region filter images*/
